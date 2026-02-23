@@ -219,7 +219,7 @@ export default function DocumentationPage() {
               {filteredContent && filteredContent.length === 0 && (
                 <div className="mt-2 p-4 rounded-xl glass-effect border border-blue-200/30 animate-fade-in">
                   <p className="text-sm text-muted-foreground text-center">
-                    No results found for "{searchQuery}"
+                    No results found for &quot;{searchQuery}&quot;
                   </p>
                 </div>
               )}
@@ -709,7 +709,7 @@ export default function DocumentationPage() {
                     Need More Help?
                   </CardTitle>
                   <CardDescription className="text-base">
-                    Can't find what you're looking for? Our support team is here to help!
+                    Can&apos;t find what you&apos;re looking for? Our support team is here to help!
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4 relative">

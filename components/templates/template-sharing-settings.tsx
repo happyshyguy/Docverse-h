@@ -93,7 +93,7 @@ export function TemplateSharingSettings({ template, onClose }: TemplateSharingSe
   if (!isOwner && !canEdit) {
     return (
       <div className="p-4 text-center text-muted-foreground">
-        You don't have permission to manage sharing for this template.
+        You don&apos;t have permission to manage sharing for this template.
       </div>
     );
   }

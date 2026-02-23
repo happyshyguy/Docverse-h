@@ -592,7 +592,7 @@ export function PresentationGenerator() {
                 <Sparkles className="h-4 w-4 text-blue-500" />
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-3 bolt-gradient-text">
-                What's your presentation about?
+                What&apos;s your presentation about?
               </h2>
               <p className="text-muted-foreground">
                 Our AI will create a professional presentation with Canva-style design, high-quality
@@ -862,8 +862,8 @@ export function PresentationGenerator() {
                 </h2>
                 <p className="text-muted-foreground max-w-3xl mx-auto">
                   Review the generated presentation. You can regenerate for a different version or
-                  keep this one. Your presentation won't be saved until you click "Keep This
-                  Version".
+                  keep this one. Your presentation won&apos;t be saved until you click &quot;Keep This
+                  Version&quot;.
                 </p>
               </>
             ) : (
@@ -919,6 +919,7 @@ export function PresentationGenerator() {
                   type="text"
                   value={shareUrl}
                   readOnly
+                  title="Share link"
                   className="flex-1 px-3 py-2 text-sm bg-background border border-border rounded-lg"
                 />
                 <Button onClick={copyShareLink} size="sm" variant="outline">

@@ -132,9 +132,9 @@ export function FlyerGenerator() {
                   value={flyerData.size}
                   onChange={(e) => handleInputChange('size', e.target.value as any)}
                 >
-                  <option value="letter">Letter (8.5" x 11")</option>
+                  <option value="letter">Letter (8.5&quot; x 11&quot;)</option>
                   <option value="a4">A4</option>
-                  <option value="poster">Poster (18" x 24")</option>
+                  <option value="poster">Poster (18&quot; x 24&quot;)</option>
                 </select>
               </div>
               <div className="space-y-2">

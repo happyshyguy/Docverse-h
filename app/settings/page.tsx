@@ -506,7 +506,7 @@ export default function SettingsPage() {
                 </div>
               ) : statsError ? (
                 <div className="rounded-xl border border-destructive/40 bg-destructive/5 p-5 text-center text-sm text-destructive">
-                  <p className="font-medium">We couldn't load your usage data.</p>
+                  <p className="font-medium">We couldn&apos;t load your usage data.</p>
                   <p className="mt-1 text-xs opacity-80">{statsError}</p>
                   <Button className="mt-3" size="sm" variant="outline" onClick={refetchStats}>
                     Try again

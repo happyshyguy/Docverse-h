@@ -267,7 +267,7 @@ function ContractPreview({ contractData }: { contractData: ContractData }) {
         <ul className="list-disc pl-6 space-y-2">
           {contractData.parties.map((party, index) => (
             <li key={index}>
-              <strong>{party.name || `[Party ${index + 1} Name]`}</strong> ("{party.role || `Party ${index + 1}`}")
+              <strong>{party.name || `[Party ${index + 1} Name]`}</strong> (&quot;{party.role || `Party ${index + 1}`}&quot;)
             </li>
           ))}
         </ul>

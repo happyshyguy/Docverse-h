@@ -132,7 +132,7 @@ export default function ResumePage() {
                   <Star className="h-5 w-5 text-blue-500 animate-pulse" />
                 </div>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Join thousands who've landed their dream jobs with AI-powered resumes
+                  Join thousands who&apos;ve landed their dream jobs with AI-powered resumes
                 </p>
                 <div className="flex flex-wrap justify-center gap-3">
                   <div className="glass-effect px-4 py-2 rounded-full text-xs hover:scale-105 transition-transform duration-300">

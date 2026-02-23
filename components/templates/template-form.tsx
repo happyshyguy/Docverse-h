@@ -285,7 +285,7 @@ export function TemplateForm({
                       💼 Resume Example
                     </div>
                     <div className="text-xs text-muted-foreground">
-                      "Modern tech resume with skills matrix"
+                      &quot;Modern tech resume with skills matrix&quot;
                     </div>
                   </div>
                   <div className="p-3 bg-white/50 dark:bg-gray-800/30 rounded-lg border border-yellow-200 dark:border-yellow-700">
@@ -293,7 +293,7 @@ export function TemplateForm({
                       📊 Presentation Example
                     </div>
                     <div className="text-xs text-muted-foreground">
-                      "Business pitch deck with charts"
+                      &quot;Business pitch deck with charts&quot;
                     </div>
                   </div>
                 </div>
@@ -450,7 +450,7 @@ export function TemplateForm({
                           🌐 Make this template public
                         </FormLabel>
                         <FormDescription className="text-xs sm:text-sm">
-                          Public templates can be discovered and used by other users. You'll still
+                          Public templates can be discovered and used by other users. You&apos;ll still
                           own and control the template.
                         </FormDescription>
                       </div>

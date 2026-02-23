@@ -505,7 +505,7 @@ export function DiagramGenerator() {
                       Decision
                     </div>
                     <div>
-                      <code className="bg-white/50 px-1 py-0.5 rounded">D[["Subroutine"]]</code> -
+                      <code className="bg-white/50 px-1 py-0.5 rounded">D[[&quot;Subroutine&quot;]]</code> -
                       Process
                     </div>
                   </div>

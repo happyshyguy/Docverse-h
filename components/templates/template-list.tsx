@@ -467,7 +467,7 @@ export function TemplateList({
           <span>
             Showing {filteredAndSortedTemplates.length} of {templates?.length || 0} templates
           </span>
-          {searchQuery && <span>Search results for "{searchQuery}"</span>}
+          {searchQuery && <span>Search results for &quot;{searchQuery}&quot;</span>}
         </div>
       )}
 
@@ -568,7 +568,7 @@ export function TemplateList({
             <Search className="h-10 w-10 text-muted-foreground" />
             <h3 className="mt-4 text-lg font-semibold">No templates found</h3>
             <p className="mb-4 mt-2 text-sm text-muted-foreground">
-              No templates match your search for "{searchQuery}". Try adjusting your search terms.
+              No templates match your search for &quot;{searchQuery}&quot;. Try adjusting your search terms.
             </p>
             <Button variant="outline" onClick={() => setSearchQuery('')}>
               Clear Search
@@ -580,7 +580,7 @@ export function TemplateList({
           <div className="mx-auto flex max-w-[420px] flex-col items-center justify-center text-center">
             <h3 className="mt-4 text-lg font-semibold">No templates found</h3>
             <p className="mb-4 mt-2 text-sm text-muted-foreground">
-              You don't have any templates yet. Start by creating a new one.
+              You don&apos;t have any templates yet. Start by creating a new one.
             </p>
             <Button onClick={() => router.push('/templates/new')}>
               <Plus className="mr-2 h-4 w-4" />

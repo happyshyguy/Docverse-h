@@ -636,7 +636,7 @@ export function GuidedResumeGenerator({ onResumeGenerated }: GuidedResumeGenerat
               <li>• Keep it brief: 3-4 sentences maximum</li>
               <li>• Mention your years of experience and key expertise</li>
               <li>• Include 2-3 most relevant skills or achievements</li>
-              <li>• Align it with the target role you're applying for</li>
+              <li>• Align it with the target role you&apos;re applying for</li>
             </ul>
           </div>
         </div>
@@ -827,7 +827,7 @@ export function GuidedResumeGenerator({ onResumeGenerated }: GuidedResumeGenerat
             </h3>
             <ul className="text-xs text-black dark:text-white space-y-1">
               <li>• List your highest or most relevant degree first</li>
-              <li>• Include GPA if it's 3.5 or higher</li>
+              <li>• Include GPA if it&apos;s 3.5 or higher</li>
               <li>• Mention honors, awards, or relevant coursework</li>
               <li>• For recent graduates, education should come before experience</li>
             </ul>
@@ -1146,7 +1146,7 @@ export function GuidedResumeGenerator({ onResumeGenerated }: GuidedResumeGenerat
               <li>• Include industry-recognized certifications relevant to your field</li>
               <li>• List most recent or most relevant certifications first</li>
               <li>• Add credential IDs when available for verification</li>
-              <li>• Optional: You can skip this section if you don't have certifications</li>
+              <li>• Optional: You can skip this section if you don&apos;t have certifications</li>
             </ul>
           </div>
         </div>

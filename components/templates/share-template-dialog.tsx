@@ -89,7 +89,7 @@ export function ShareTemplateDialog({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Share "{templateTitle}"</DialogTitle>
+          <DialogTitle>Share &quot;{templateTitle}&quot;</DialogTitle>
           <DialogDescription>
             Share this template with others by entering their email address below.
           </DialogDescription>

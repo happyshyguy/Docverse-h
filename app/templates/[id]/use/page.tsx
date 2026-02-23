@@ -183,7 +183,7 @@ export default function UseTemplatePage() {
         <CardContent>
           <div className="bg-muted/50 p-6 rounded-lg">
             <p className="text-sm text-muted-foreground mb-4">
-              Template content preview is not available in this view. Click "Use Template" to start
+              Template content preview is not available in this view. Click &quot;Use Template&quot; to start
               creating your document with this template.
             </p>
             {template.content && (

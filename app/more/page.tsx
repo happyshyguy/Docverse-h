@@ -204,7 +204,7 @@ export default function MorePage() {
             <p className="text-base sm:text-lg lg:text-xl leading-7 sm:leading-8 text-muted-foreground max-w-2xl lg:max-w-3xl mx-auto px-4 sm:px-0">
               Discover our complete suite of{' '}
               <span className="font-semibold text-yellow-600">document creation tools</span> - from
-              business cards to event invitations, we've got you covered with{' '}
+              business cards to event invitations, we&apos;ve got you covered with{' '}
               <span className="font-semibold bolt-gradient-text">AI-powered magic</span>
             </p>
 

@@ -297,7 +297,7 @@ export function DiagramTemplates({ onSelectTemplate }: DiagramTemplatesProps) {
       {searchQuery && (
         <div className="text-center text-sm text-muted-foreground">
           Found {filteredTemplates.length} template{filteredTemplates.length !== 1 ? 's' : ''}{' '}
-          matching "{searchQuery}"
+          matching &quot;{searchQuery}&quot;
         </div>
       )}
 

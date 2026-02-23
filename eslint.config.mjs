@@ -11,6 +11,7 @@ export default [
     rules: {
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       '@next/next/no-img-element': 'off',
+      'react/no-unknown-property': 'off',
     },
   },
 ];

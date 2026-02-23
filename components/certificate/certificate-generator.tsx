@@ -295,6 +295,7 @@ Date: ${new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'lo
             step={5}
             value={fontScale}
             onChange={(e) => setFontScale(Number(e.target.value))}
+            title="Font size scale"
             className="w-40"
           />
           <span className="text-sm text-muted-foreground">{fontScale}%</span>
@@ -305,6 +306,7 @@ Date: ${new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'lo
             id="fontFamily"
             value={fontFamily}
             onChange={(e) => setFontFamily(e.target.value)}
+            title="Select font family"
             className="border rounded px-2 py-1 text-sm"
           >
             <option value="serif">Serif</option>

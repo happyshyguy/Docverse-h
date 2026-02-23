@@ -86,7 +86,7 @@ export default function ContactForm() {
                   Message Sent Successfully!
                 </h2>
                 <p className="text-muted-foreground mb-6">
-                  Thank you for reaching out. We'll get back to you within 24 hours.
+                  Thank you for reaching out. We&apos;ll get back to you within 24 hours.
                 </p>
                 <button
                   onClick={() => {
@@ -168,7 +168,7 @@ export default function ContactForm() {
               Have a question about our{' '}
               <span className="font-semibold text-blue-600">AI-powered platform</span>? Need help
               creating <span className="font-semibold text-yellow-600">professional documents</span>
-              ? We're here to help with{' '}
+              ? We&apos;re here to help with{' '}
               <span className="font-semibold bolt-gradient-text">magical support</span>
             </p>
 
